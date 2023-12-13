@@ -67,7 +67,6 @@ a {
     font-weight: 700;
     background-color: rgb(23, 103, 216);
     border-width: 0;
-<<<<<<< HEAD
 }
 .content > h2{
     text-align: center;
@@ -117,6 +116,32 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1d2e45;
     font-weight: 800;
-=======
->>>>>>> 7dbd59a951d36e6de692cb7359a081f12e1347dd
+}
+.call-to-action{
+    display:flex;
+    margin: 100px 200px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 50px;
+    background-color: #5091fb;
+    border-radius: 8px;
+}
+.CTA-text{
+    color: rgb(248, 248, 248);
+    font-size: 20px;
+
+}
+.CTA-text > p{
+    margin: 5px 0;
+}
+.call-to-action > button{
+    padding: 8px 20px;
+    color: white;
+    font-weight: 800;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+
 }
