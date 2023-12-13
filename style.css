@@ -68,3 +68,52 @@ a {
     background-color: rgb(23, 103, 216);
     border-width: 0;
 }
+.content > h2{
+    text-align: center;
+    color: #1d2e45;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif
+}
+.cards {
+    display: flex;
+    gap: 60px;
+    margin: 0 200px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.cards > div > p{
+    flex: 0 1 auto;
+    max-width: 180px;
+    text-align: center;
+    font-family:'Nova Square', sans-serif;
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+}
+.cards img {
+    flex: 0 1 auto;
+    width: 180px;
+    height: 180px;
+    object-fit:cover;
+    border-radius: 15px;
+    border: 3px solid rgb(23, 103, 216);
+}
+.quote {
+    padding: 100px 250px;
+    background-color: #E5E7EB;
+}
+.quote > em {
+    font-size: 35px;
+    color: #1d2e45;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.quote > p {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1d2e45;
+    font-weight: 800;
+}
