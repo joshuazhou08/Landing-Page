@@ -67,6 +67,7 @@ a {
     font-weight: 700;
     background-color: rgb(23, 103, 216);
     border-width: 0;
+<<<<<<< HEAD
 }
 .content > h2{
     text-align: center;
@@ -116,4 +117,6 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1d2e45;
     font-weight: 800;
+=======
+>>>>>>> 7dbd59a951d36e6de692cb7359a081f12e1347dd
 }
